@@ -2,7 +2,7 @@
 
 $ip = 'localhost';
 $usuario = 'root';
-$senha = '107709475163';
+$senha = '';
 $bd = 'toyota';
 
 // conectando com o banco toyota
