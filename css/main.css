@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    font-family: consolas;
+    margin-top: 75px;
+}
+
+.text {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.links {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 20% 10% 20%;
+    gap: 40%;
+    margin-top: 45px;
+    margin-left: 25%;
+    margin-right: 30%;
+}
+
+.button {
+    background-color: #ef1b2f;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 9px;
+}
+
+.button:hover {
+    background-color: #ce192b;
+    color: rgb(221, 221, 221);
+}

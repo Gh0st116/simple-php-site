@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    font-family: consolas;
+    margin-top: 75px;
+}
+
+.button {
+    background-color: #ef1b2f;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 9px;
+}
+
+.button:hover {
+    background-color: #ce192b;
+    color: rgb(221, 221, 221);
+}
+
+.back {
+    margin-top: 25px;
+}
+
+.search {
+    padding: 10px 20px;
+}
+
+input[type=text] {
+    background-color: rgb(230, 230, 230);
+    color: black;
+    border: none;
+    padding: 8px 10px 8px 15px;
+    border-radius: 9px;
+}
+
+input[type=submit] {
+    font-family: consolas;
+    color: white;
+}
+
+::placeholder {
+    color: gray;
+}
